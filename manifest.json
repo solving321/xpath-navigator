@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "XPath Navigator",
+  "version": "1.0",
+  "description": "Navigate through XPath elements on a webpage",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

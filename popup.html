@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      textarea {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      button {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea
+      id="xpathInput"
+      placeholder="Enter XPath expressions (one per line)"
+    ></textarea>
+    <div class="button-container">
+      <button id="prevButton">Previous</button>
+      <button id="nextButton">Next</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
