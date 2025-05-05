@@ -18,12 +18,18 @@
       button {
         padding: 5px 10px;
       }
+      .info {
+        font-size: 12px;
+        color: #666;
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
+    <div class="info">Enter XPath expressions or CSS selectors (one per line)</div>
     <textarea
       id="xpathInput"
-      placeholder="Enter XPath expressions (one per line)"
+      placeholder="Example: //div[@id='header'] or .logo or button[aria-label='Search']"
     ></textarea>
     <div class="button-container">
       <button id="prevButton">Previous</button>

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "XPath Navigator",
+  "name": "XPath & CSS Selector Navigator",
   "version": "1.0",
-  "description": "Navigate through XPath elements on a webpage",
+  "description": "Navigate through elements on a webpage using XPath or CSS selectors",
   "permissions": ["activeTab", "storage"],
   "action": {
     "default_popup": "popup.html"
